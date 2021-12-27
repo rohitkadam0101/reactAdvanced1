@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import FocusInput from './Components/FocusInput';
+import FragmentDemo from './Components/FragementDemo';
+import FRParentInput from './Components/FRParentInput';
+import LifecycleA from './Components/LifecycleA';
+import ParentComponent from './Components/ParentComponent';
+import PureComp from './Components/PureComp';
+import RefsDemo from './Components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <LifecycleA /> */}
+      {/* <FragmentDemo /> */}
+      {/* <ParentComponent /> */}
+      {/* <RefsDemo /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput /> // To practice ForwardRef
     </div>
   );
 }

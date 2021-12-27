@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Note:- Contains components of refs,lifecycle methods,memo,pure component and fragment
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
